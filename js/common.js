@@ -57,8 +57,10 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	{
 		if ($(window).width() < 992) { 
 			$(".item-accordion__head").click(function() {
+				$(this).parent().siblings().removeClass("active");
 				$(this).parent().siblings().find(".item-accordion__content").slideUp(200);
 				$(this).siblings(".item-accordion__content").slideToggle(200);
+				$(this).parent().toggleClass("active");
 			});
 
 			$(".footer__title").click(function() {
@@ -68,10 +70,16 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		}
 	}
 
-		$(".item-accordion__head").mouseover(function() {
-		$(".item-accordion").removeClass("active");
-		$(this).parent().addClass("active");
-	});
+	{
+		if ($(window).width() > 992) { 
+			$(".item-accordion__head").mouseover(function() {
+				$(".item-accordion").removeClass("active");
+				$(this).parent().addClass("active");
+			});
+		}
+	}
+
+
 
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
