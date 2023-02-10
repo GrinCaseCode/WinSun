@@ -554,8 +554,8 @@
 		right: -10px;
 	}
 	.btn-video::before {
-		width: 96%;
-		height: 96%;
+		width: 87%;
+		height: 87%;
 		background-size: 100% 100%;
 	}
 	.container {

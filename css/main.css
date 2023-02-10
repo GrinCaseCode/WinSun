@@ -272,6 +272,9 @@ form {
 	height: 100%;
 	top: 0;
 	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
 	border-radius: 50%;
 	background-image: url(../img/text_video.svg);
 	background-repeat: no-repeat;
