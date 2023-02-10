@@ -52,19 +52,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		}
 		]
 	});
-	$(window).resize(function () {
-    if ($(window).width() < 992) {
-      $(".item-accordion__head").click(function() {
-				$(this).parent().siblings().find(".item-accordion__content").slideUp(200);
-				$(this).siblings(".item-accordion__content").slideToggle(200);
-			});
 
-			$(".footer__title").click(function() {
-				$(this).toggleClass("active");
-				$(this).next(".footer__content").slideToggle(200);
-			});
-    }
-  })
 
 	{
 		if ($(window).width() < 992) { 

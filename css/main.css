@@ -1073,3 +1073,32 @@ backdrop-filter: blur(12.5px);
 .row_colors {
 	padding: 0 30px;
 }
+.image-article-card img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.article-card {
+	font-size: 18px;
+	line-height: 35px;
+	padding-top: 50px;
+	padding-bottom: 75px;
+}
+.article-card p {
+	margin-bottom: 20px;
+}
+.article-card .title-section {
+	padding-bottom: 40px;
+	margin-bottom: 30px;
+	position: relative;
+}
+.article-card .title-section::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 24px;
+	height: 1px;
+	bottom: 0;
+	left: 0;
+	background-color: #375DBA;
+}

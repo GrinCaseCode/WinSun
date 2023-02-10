@@ -500,6 +500,14 @@
 	.page-catalog {
 		padding-top: 30px;
 	}
+	.menu a {
+		display: block;
+		padding: 10px 0;
+		border-bottom: 1px solid #000;
+	}
+	.menu li {
+		margin: 0;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -641,6 +649,19 @@
 		line-height: 25px;
 		padding-top: 14px;
 		margin-bottom: 12px;
+	}
+	.form-contact .checkbox {
+		display: flex;
+		justify-content: center;
+	}
+	.billbord .checkbox {
+		color: #fff;
+	}
+	.billbord .checkbox label span:before {
+		border-color: #fff;
+	}
+	.billbord .checkbox label span:after {
+		color: #fff;
 	}
 }
 
