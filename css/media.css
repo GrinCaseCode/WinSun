@@ -508,6 +508,13 @@
 	.menu li {
 		margin: 0;
 	}
+	.billbord,
+	.content-billbord {
+		min-height: initial;
+	}
+	.billbord {
+		padding-bottom: 20px;
+	}
 }
 
 /* Small Devices, Tablets */
