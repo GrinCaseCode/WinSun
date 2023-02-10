@@ -58,6 +58,71 @@
 	.page-catalog {
 		padding-bottom: 130px;
 	}
+	.item-advantage__title {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.item-billbord__value {
+		font-size: 55px;
+		line-height: 82px;
+	}
+	.item-billbord {
+		margin-top: 70px;
+	}
+	.item-advantage__icon {
+		margin-bottom: 35px;
+	}
+	.advantages-card {
+		padding: 75px 0;
+	}
+	.banner-card {
+		min-height: 730px;
+		padding: 65px 0;
+	}
+	.row_colors {
+		padding: 0;
+	}
+	.item-color {
+		height: 186px;
+		max-width: 186px;
+		padding: 16px 12px;
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 35px;
+	}
+	.head-title__value {
+		font-size: 85px;
+		line-height: 122px;
+		margin-right: 20px;
+	}
+	.article-card p {
+		margin-bottom: 15px;
+	}
+	.article-card {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.article-card .title-section {
+		padding-bottom: 30px;
+		margin-bottom: 25px;
+	}
+	.article-card__buttons .btn-main {
+		padding: 0 25px;
+		font-size: 14px;
+	}
+	.article-card__buttons .btn-main img {
+		margin-right: 15px;
+	}
+	.contacts-block {
+		left: 50px;
+	}
+	.item-catalog::before {
+		top: -117px;
+		bottom: -132px;
+	}
+	.item-color__value {
+		margin-bottom: 16px;
+	}
 }
 @media only screen and (max-width : 1560px) {
 
@@ -185,6 +250,21 @@
 		padding-top: 15px;
 		column-gap: 17px;
 	}
+	.title-page {
+		font-size: 40px;
+		line-height: 61px;
+	}
+	.item-billbord__value {
+		font-size: 50px;
+		line-height: 75px;
+	}
+	.item-billbord {
+		margin-top: 40px;
+	}
+	.item-catalog::before {
+		top: -112px;
+		bottom: -132px;
+	}
 }
 @media only screen and (max-width : 1460px) {
 	.container {
@@ -237,6 +317,73 @@
 	}
 	.page-catalog {
 		padding-bottom: 90px;
+	}
+	.article-card {
+		font-size: 14px;
+		line-height: 20px;
+		padding-bottom: 60px;
+	}
+	.article-card .title-section {
+		padding-bottom: 15px;
+		margin-bottom: 20px;
+		font-size: 24px;
+		line-height: 37px;
+	}
+	.article-card__buttons .btn-main {
+		padding: 0 15px;
+		font-size: 13px;
+		height: 55px;
+	}
+	.article-card__buttons {
+		padding-top: 35px;
+		column-gap: 10px;
+	}
+	.article-card__buttons .btn-main img {
+		margin-right: 10px;
+		max-width: 20px;
+	}
+	.contacts {
+		padding-top: 35px;
+	}
+	.contacts .title-section + .title-min {
+		padding-top: 13px;
+		padding-bottom: 35px;
+	}
+	.item-color {
+		height: 155px;
+		max-width: 155px;
+		padding: 15px 11px;
+		font-size: 13px;
+		line-height: 18px;
+		margin-bottom: 25px;
+	}
+	.row_colors {
+		margin: 0 -7px;
+	}
+	.row_colors > div {
+		padding: 0 7px;
+	}
+	.head-title__value {
+		font-size: 68px;
+		line-height: 104px;
+		margin-right: 15px;
+	}
+	.catalog-card .descr-middle {
+		padding-bottom: 20px;
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.catalog-card {
+		padding: 50px 0;
+		padding-bottom: 30px;
+	}
+	.contacts-block {
+		width: 350px;
+		padding-right: 30px;
+	}
+	.item-catalog::before {
+		top: -103px;
+		bottom: -91px;
 	}
 }
 
@@ -298,6 +445,73 @@
 	}
 	.image-footer img {
 		max-width: 650px;
+	}
+	.title-page {
+		font-size: 32px;
+		line-height: 45px;
+	}
+	.item-billbord__value {
+		font-size: 38px;
+		line-height: 50px;
+	}
+	.item-billbord {
+		margin-top: 25px;
+	}
+	body {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.billbord_card {
+		padding-bottom: 25px;
+	}
+	.item-advantage__icon {
+		width: 140px;
+		height: 140px;
+		padding: 40px;
+		margin-bottom: 25px;
+	}
+	.item-advantage__title {
+		font-size: 14px;
+		line-height: 21px;
+		padding-top: 20px;
+	}
+	.advantages-card {
+		padding: 40px 0;
+	}
+	.banner-card {
+		min-height: 580px;
+		padding: 45px 0;
+	}
+	.content-banner {
+		height: 335px;
+		padding: 0 30px;
+	}
+	.head-title__value {
+		font-size: 50px;
+		line-height: 88px;
+		margin-right: 11px;
+	}
+	.catalog-card .descr-middle {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.item-color {
+		height: 125px;
+		max-width: 125px;
+		padding: 15px 11px;
+		font-size: 13px;
+		line-height: 18px;
+		margin-bottom: 12px;
+	}
+	.article-card__buttons {
+		padding-top: 20px;
+	}
+	.article-card {
+		padding-bottom: 40px;
+	}
+	.item-catalog::before {
+		top: 0;
+		bottom: 0;
 	}
 }
 
@@ -532,6 +746,52 @@
 	.info-billbord {
 		margin-bottom: 35px;
 	}
+	.item-billbord {
+		margin-top: 15px;
+	}
+	.banner-card {
+		padding: 35px 0;
+		min-height: initial;
+	}
+	.content-banner {
+		padding: 35px 30px;
+		height: auto;
+	}
+	.banner-card {
+		padding: 50px 0;
+	}
+	.row_colors {
+		margin-top: 25px;
+	}
+	.item-color {
+		height: 186px;
+		max-width: 186px;
+		padding: 15px 15px;
+		margin: 0;
+		margin-bottom: 15px;
+	}
+	.contacts-block {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		margin-bottom: 15px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.contacts_page #map,
+	#map {
+		height: 350px;
+	}
+	.item-location {
+		margin-top: 15px;
+	}
+	.list-locations {
+		max-height: 433px;
+	}
+	.item-catalog::before {
+		display: none;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -594,6 +854,62 @@
 	.feature {
 		font-size: 13px;
 		line-height: 18px;
+	}
+	.title-page {
+		font-size: 29px;
+		line-height: 41px;
+	}
+	.billbord .breadcrumbs {
+		padding-top: 0;
+	}
+	.item-advantage__icon {
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	.item-advantage {
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.item-advantage__title::before {
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	.advantages-card {
+		padding-bottom: 20px;
+	}
+	.article-card {
+		padding-top: 30px;
+	}
+	.article-card__buttons {
+		display: block;
+		padding-top: 0;
+	}
+	.article-card__buttons .btn-main {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.contacts-block {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		margin-bottom: 15px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	#map {
+		height: 350px;
+	}
+	.contacts .title-section + .title-min {
+		padding-bottom: 25px;
+	}
+	.item-advantage {
+		max-width: 270px;
+	}
+	.item-color {
+		margin-bottom: 25px;
 	}
 }
 
@@ -686,6 +1002,23 @@
 	}
 	.billbord .checkbox label span:after {
 		color: #fff;
+	}
+	.title-page {
+		font-size: 25px;
+		line-height: 36px;
+	}
+	.content-banner {
+		padding: 30px 25px;
+	}
+	.catalog-card {
+		padding-top: 10px;
+	}
+	.item-color {
+		height: 155px;
+		max-width: 155px;
+	}
+	.contacts .contacts-block {
+		padding-left: 20px;
 	}
 }
 
