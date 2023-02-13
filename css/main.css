@@ -703,7 +703,7 @@ form {
 	border-color: #375DBA;
 }
 .footer .list-social {
-	margin-top: 31px;
+	margin-top: 23px;
 }
 .footer .list-social li {
 	margin-right: 32px;
@@ -1215,7 +1215,6 @@ li:first-child .item-location {
 .billbord  .breadcrumbs {
 	padding-top: 0px;
 }
-
 .item-catalog::before {
 	position: absolute;
 	display: block;
@@ -1239,4 +1238,3 @@ li:first-child .item-location {
 	z-index: 2;
 	border-color: transparent;
 }
- 
